@@ -514,7 +514,7 @@ footer {
         margin-right: 5px;
     }
     .table1 tr {
-        margin: 1px 15px;
+        margin: 1px 16px;
         display: block; 
     }
     .table1 tr td {
@@ -563,7 +563,7 @@ footer {
         padding-bottom: 15px;
     }
     .fB img {
-        margin: 7px auto;
+        padding: 7px 5%;
     }
     header {
         position: relative;
