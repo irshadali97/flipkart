@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <script src="apps.js" defer></script>
+    <title>Online Shoping Site-Flipkart</title>
+</head>
+<body>
+    <header>
+        <div class="firstBox">
+        <div class="empty"></div>
+        <nav class="menubar mobile">
+            <div class="toggle" onclick="toggleMenu()"><img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMyAxOGgxOHYtMkgzdjJ6bTAtNWgxOHYtMkgzdjJ6bTAtN3YyaDE4VjZIM3oiLz48L3N2Zz4=" alt="menu" width="20px" height="20px"></div>
+            <ul class="menu">
+                <div class="loginBar">
+                    <li><i class="fas fa-user" aria-hidden="true"></i>Login & Sign Up</li>
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png" alt="" width="20px" height="20px">
+                </div>
+                <li>SuperCoin Zone</li>
+                <li>FlikartPlus Zone</li>
+                <li>All Categories</li>
+                <li>More on Flipkart</li>
+                <li>Choose Language</li>
+                <li>Offer Zone</li>
+                <li>Sell on Flipkart</li>
+                <li>My Orders</li>
+                <li>My Coupons</li>
+                <li>My Cart</li>
+                <li>My Wishlist</li>
+                <li>My Account</li>
+                <li>My Notifications</li>
+                <li>My Chats</li>
+                </ul>
+        </nav>
+        <div class="top1">
+            <div class="logo">
+                <a href="https://www.flipkart.com/plus">
+                <img src="/images/flipkart logo.png" alt="" class="desktop"></a>
+                <img src="/images/mobilelogo.png" alt="" class="mobile"></a>
+            </div>
+            <div class="searchBox desktop" >
+                <input type="text" placeholder="Search for products, brands and more" class="searchInput">
+                <button><i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="loginButton desktop">
+                <a href="https://www.flipkart.com/?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSYdhirnO5Vz4IZqGEMpN22B6XxpLy9lwwUpv0QcFFzd9EP426toSO4aAjajEALw_wcB&ef_id=Cj0KCQiAlsv_BRDtARIsAHMGVSYdhirnO5Vz4IZqGEMpN22B6XxpLy9lwwUpv0QcFFzd9EP426toSO4aAjajEALw_wcB:G:s&s_kwcid=AL!739!3!326555007752!e!!s!!flipkart&gclsrc=aw.ds&&semcmpid=sem_8024046704_brand_city_goog">
+                <button>Login</button></a>
+            </div>
+            <div class="more">
+                <div class="moreMain desktop">
+                  <p>More 
+                    <i class="fas fa-angle-down active "></i>
+                  </p>
+               
+                  <div class="subMore">
+                      <li><i class="fas fa-bell"></i><a href="https://www.flipkart.com/?gclid=Cj0KCQiAlsv_BRDtARIsAHMGVSYdhirnO5Vz4IZqGEMpN22B6XxpLy9lwwUpv0QcFFzd9EP426toSO4aAjajEALw_wcB&ef_id=Cj0KCQiAlsv_BRDtARIsAHMGVSYdhirnO5Vz4IZqGEMpN22B6XxpLy9lwwUpv0QcFFzd9EP426toSO4aAjajEALw_wcB:G:s&s_kwcid=AL!739!3!326555007752!e!!s!!flipkart&gclsrc=aw.ds&&semcmpid=sem_8024046704_brand_city_goog">Notification Preferences</a></li>
+                      <li><i class="fas fa-gift"></i><a href="https://seller.flipkart.com/sell-online/?utm_source=flipkart&utm_medium=website&utm_campaign=sellbutton">Sell on Flipkart</a></li>
+                      <li><i class="fas fa-question-circle"></i><a href="https://www.flipkart.com/helpcentre">24x7 Customer Care</a></li>
+                      <li><i class="fas fa-arrows-alt"></i><a href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header">Advertise</a></li>
+                      <li><i class="fas fa-download"></i><a href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps">Download App</a></li>
+                  </div>
+                </div> 
+            </div>
+            <div class="cart desktop">
+                <p><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    Cart
+                </p>
+            </div>
+        </div>
+        <div class="empty"></div>
+    </div>
+        <div class="headerRight mobile">
+            <i class="fas fa-plus-square mobile-icons" aria-hidden="true"></i>
+            <i class="fas fa-shopping-cart mobile-icons" aria-hidden="true"></i>
+            <button>Login</button>
+        </div>
+
+    </header>
+
+    <div class=" searchMobile" >
+        <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        <input type="text" placeholder="Search for products, brands and more" class="sIMobile" >
+    </div>
+    <nav class="categories">
+        <div class="offerZone">
+        <div class="top2">
+            <a href="https://www.flipkart.com/cateogory-offer-store?fm=neo%2Fmerchandising&iid=M_2b57ba17-31e4-49e0-a86e-214f61d02724_2_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_2.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&cid=G6ZC4RAJ9OHU">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/7ee02e1c549bb62e.png?q=100" alt="topoffers" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/7ee02e1c549bb62e.png?q=100" alt="topoffers" width="40px" height="40px" class="mobile">
+            <h4>Offer Zone</h4>
+            </a>
+        </div>  
+        <div class="top2">
+            <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_c22bbd3a-de3e-4f5b-8f2f-b53fed055d90_2_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_2_2.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&cid=CBUR1Q46W5F1">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/3f77b0f78aec8630.png?q=100" alt="Grocery" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/3f77b0f78aec8630.png?q=100" alt="Grocery" width="40px" height="40px" class="mobile">
+            <h4>Grocery</h4>
+            </a>
+        </div>  
+        <div class="top2">
+            <a href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_8c5c8f14-410d-448d-bbbe-cccd9089e5a1_2_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_2.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&cid=ZRQ4DKH28K8J">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/892079aa4316cc80.png?q=100" alt="Mobiles" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/892079aa4316cc80.png?q=100" alt="Mobiles" width="40px" height="40px" class="mobile">
+            <h4>Mobiles</h4>
+            </a>
+        </div>
+        <div class="top2">
+            <a href="#">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/525e614855825d8b.png?q=100" alt="Fashion" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/525e614855825d8b.png?q=100" alt="Fashion" width="40px" height="40px" class="mobile">
+            <h4>Fashion</h4>
+            </a>
+        </div>
+        <div class="top2">
+            <a href="#">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/3903ceb0b3df1886.png?q=100" alt="Electronics" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/3903ceb0b3df1886.png?q=100" alt="Electronics" width="40px" height="40px" class="mobile">
+            <h4>Electronics</h4>
+            </a>
+        </div>
+        <div class="top2">
+            <a href="#">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/88a70760aa57951a.png?q=100" alt="Home" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/88a70760aa57951a.png?q=100" alt="Home" width="40px" height="40px" class="mobile">
+            <h4>Home</h4>
+            </a>
+        </div>
+        <div class="top2">
+            <a href="#">
+            <img src="https://rukminim1.flixcart.com/flap/198/186/image/c6c1ae1f01c84f33.jpg?q=100" alt="Appliances" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/198/186/image/c6c1ae1f01c84f33.jpg?q=100" alt="Appliances" width="40px" height="40px" class="mobile">
+            <h4>Appliances</h4>
+            </a>
+        </div>
+        <div class="top2">
+            <a href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_b0969404-24df-4170-9711-d5570f99681a_2_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_8_2.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&cid=V4ZPKTOAO321">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/0026b47797681cf5.png?q=100" alt="Travel" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/0026b47797681cf5.png?q=100" alt="Travel" width="40px" height="40px" class="mobile">
+            <h4>Travel</h4>
+            </a>
+        </div>
+        <div class="top2 desktop">
+            <a href="#">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/f9952558cca8228f.png?q=100" alt="Beauty,toys & more" width="64px" height="64px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/128/128/image/f9952558cca8228f.png?q=100" alt="Beauty,toys & more" width="40px" height="40px" class="mobile">
+            <h4>Beauty, Toys & More</h4>
+            </a>
+        </div>
+        </div>
+    </nav>
+    <div class="top3">
+    <div class="slider">
+        <button class="leftBt desktop"><</button>
+        <figure>
+            <div class="slide">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/80ade980a9492bff.jpg?q=50" alt="tv" width="100%" height="280px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/80ade980a9492bff.jpg?q=50" alt="tv" width="360px" height="160px" class="mobile">
+        </div>
+            <div class="slide">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/0a6c51a2b24d62ec.jpg?q=50" alt="violaotop" width="100%" height="280px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/0a6c51a2b24d62ec.jpg?q=50" alt="violaotop" width="360px" height="160px" class="mobile">
+        </div>
+            <div class="slide">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/7b8e5d1df0df2689.jpg?q=50" alt="laptop" width="100%" height="280px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/7b8e5d1df0df2689.jpg?q=50" alt="laptop" width="360px" height="160px" class="mobile">
+        </div>
+            <div class="slide">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/5a55bfde3a5acd85.jpg?q=50" alt="poco" width="100%" height="280px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/5a55bfde3a5acd85.jpg?q=50" alt="poco" width="360px" height="160px" class="mobile">
+        </div>
+            <div class="slide">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/35ae9ac55b1161c3.jpg?q=50" alt="beds" width="100%" height="280px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/35ae9ac55b1161c3.jpg?q=50" alt="beds" width="360px" height="160px" class="mobile">
+        </div>
+            <div class="slide">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/8cda896d1b21eabb.jpg?q=50" alt="samsung" width="100%" height="280px" class="desktop">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/8cda896d1b21eabb.jpg?q=50" alt="samsung" width="360px" height="160px" class="mobile">
+        </div>
+            
+        </figure>
+        <button class="rightBt desktop">></button>
+    </div>
+</div>
+<div class="table1 mobile">
+    <div class="table2">
+        <div class="subTable">
+        <h4>Trending Offers</h4>
+        <button>View All</button>
+    </div>
+    <table>
+        <tbody>
+       <tr>
+           <td>
+               <div><img srcset="https://rukminim1.flixcart.com/image/120/120/k3xcdjk0/kitchen-rack/b/3/c/ms-18-mohini-steels-original-imafmyfgjk6chhqc.jpeg?q=80 1x, https://rukminim1.flixcart.com/image/240/240/k3xcdjk0/kitchen-rack/b/3/c/ms-18-mohini-steels-original-imafmyfgjk6chhqc.jpeg?q=60 2x, https://rukminim1.flixcart.com/image/360/360/k3xcdjk0/kitchen-rack/b/3/c/ms-18-mohini-steels-original-imafmyfgjk6chhqc.jpeg?q=40 3x, " alt="racks"></div>
+               <div class="names">Kitchen Racks</div>
+               <div class="tableOffer">Extra 10% off</div>
+           </td> 
+           <td>
+               <div>
+                   <img src="https://rukminim1.flixcart.com/image/120/120/jur9nrk0/shoe/k/b/a/wonder-1313-7-asian-grey-orange-original-imaffbmzjc5hmagy.jpeg?q=80" alt="">
+               </div>
+               <div class="names">Sports Shoes</div>
+               <div class="tableOffer">Extra 10% Off</div>
+           </td> 
+        </tr>
+        <tr>    
+            <td>
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/120/120/keaaavk0/soldering-iron/y/z/m/5in1-basic-25w-soldering-iron-kit-with-5-meter-soldering-wire-original-imafvy8cn3dafwhs.jpeg?q=80" alt="tools">
+                </div>
+                <div class="names">Soldering Irons</div>
+                <div class="tableOffer">Extra 3% Off</div>
+            </td> 
+            <td>
+               <div>
+                <img src="https://rukminim1.flixcart.com/image/120/120/jf1fafk0/balaclava/g/f/v/free-ninj-h-store-original-imaf3kq5ezzqqfvn.jpeg?q=80" alt="Face Masks">
+               </div>
+               <div class="names">Rider Face Masks</div>
+               <div class="tableOffer">Top Offers</div>
+            </td> 
+        </tr>
+    </tbody>
+    </table>
+</div>
+</div>
+<div class="fB mobile">
+    <h4>Featured Brands</h4>
+    <p>Sponsored</p>
+    <img src="https://rukminim1.flixcart.com/flap/1032/555/image/286204a0ff31f68c.jpg?q=90" alt="Renovo">
+</div>
+<div class="top4 desktop">
+    <div class="items1">
+        <div class="deals">
+            <h3>Deals of the Day</h3>
+            <button>VIEW ALL</button>
+        </div>
+        <div class="itemsSub">
+            <div class="football">
+                <img src="https://rukminim1.flixcart.com/image/150/150/jz5vjbk0/ball/w/r/j/400-450-5-69-trainer-1-502-football-nova-play-original-imafj8fw3v9xaxuu.jpeg?q=70" alt="football">
+                <h4>Sports Essentials</h4>
+                <p><span>Upto 70% + 5% Off</span> <br> <br> Shop Now</p>        
+            </div>
+            <div class="football">
+                <img src="https://rukminim1.flixcart.com/flap/150/150/image/b5ee0d94bfb2edb0.jpg?q=70" alt="Heels">
+                <h4>Catwalk, Mochi  & more</h4>
+                <p><span>Upto 60%+Extra 5% Off</span> <br> <br> Flats, Heels & more</p>        
+            </div>
+            <div class="football">
+                <img src="https://rukminim1.flixcart.com/image/150/150/k5h2jrk0/speaker/mobile-tablet-speaker/f/k/b/mivi-bs3zr-bk-original-imafz59evywgxmhr.jpeg?q=70" alt="Speakers">
+                <h4>Speakers</h4>
+                <p><span>Upto 50% off</span> <br> <br> BoAt, Infinity &more</p>        
+            </div>
+            <div class="football">
+                <img src="https://rukminim1.flixcart.com/image/150/150/khnqqa80/kids-t-shirt/g/y/t/5-6-years-mcgaw20tee011-miss-chief-original-imafxm9fcche34en.jpeg?q=70" alt="T-shirt">
+                <h4>Miss & Chief, Provogue &...</h4>
+                <p><span>Min 60% + Extra 15%Off</span> <br> <br> Kids Clothing</p>        
+            </div>
+            <div class="football">
+                <img src="https://rukminim1.flixcart.com/image/150/150/k5ihzm80/headphone/u/t/m/mivi-tedpm20-bk-original-imafz69xxetryjx8.jpeg?q=70" alt="Headphones">
+                <h4>Headphones</h4>
+                <p><span>Upto 50% off</span> <br> <br> JBL,Sony & more</p>        
+            </div>
+            <div class="football">
+                <img src="https://rukminim1.flixcart.com/image/150/150/kflftzk0/jacket/3/g/f/xxl-87172fk-breil-by-fort-collins-original-imafwyygyxm5mheb.jpeg?q=70" alt="shirts">
+                <h4>Levi's, USPA, GAP...</h4>
+                <p><span>40-70% Off</span> <br> <br> Jackets, T-Shirts & more</p>        
+            </div>
+        </div>
+    </div>
+</div>
+<div class="top5 desktop">
+    <div class="images3">
+        <img src="https://rukminim1.flixcart.com/flap/435/480/image/1ce0c4c1fb501b45.jpg?q=50" alt="Washing Machine">
+    </div>
+    <div class="images3">
+        <img src="https://rukminim1.flixcart.com/flap/435/480/image/084789479074d2b2.jpg?q=50" alt="Furniture">
+    </div>
+    <div class="images3">
+        <img src="https://rukminim1.flixcart.com/flap/435/480/image/2f30db9425df5cec.jpg?q=50" alt="Books">
+    </div>
+</div>
+<div class="top6 desktop">
+    <div class="electronics">
+        <h3>Best of Electronics</h3>
+        <button>VIEW ALL</button>
+        <p>Devices and Accessories</p>
+    </div>
+    <div class="itemsSub">
+        <div class="football">
+            <img src="https://rukminim1.flixcart.com/image/150/150/kg15ocw0/cases-covers/back-cover/g/s/2/spigen-042cs20435-original-imafwcw7c9rdweyr.jpeg?q=70" alt="Iphone">
+            <h4>Best Brands</h4>
+            <p><span>Shop Now</span> <br> <br>For All Phone Models</p>        
+        </div>
+        <div class="football">
+            <img src="https://rukminim1.flixcart.com/image/150/150/k01b8280pkrrdj/headphone/g/j/8/jbl-t450-bt-original-imaff82dvk9wsbzx.jpeg?q=70" alt="Headphones">
+            <h4>Bluetooth Headphones</h4>
+            <p><span>From ₹ 899</span> <br> <br>JBL, boAt & more</p>        
+        </div>
+        <div class="football">
+            <img src="https://rukminim1.flixcart.com/image/150/150/kb5eikw0/trimmer/z/d/n/0-5-10-mm-bt3101-15-stainless-steel-cordless-philips-original-imafsjquyq2hapug.jpeg?q=70" alt="Trimmer">
+            <h4>Best Deals on Trimmers</h4>
+            <p><span>From ₹895</span> <br> <br>By Philips</p>        
+        </div>
+        <div class="football">
+            <img src="https://rukminim1.flixcart.com/image/150/150/jb6tksw0/speaker/mobile-tablet-speaker/v/u/7/philips-in-bt40bk-94-original-imafyhffk49hxvga.jpeg?q=70" alt="Speakrs">
+            <h4>Bluetooth speakers</h4>
+            <p><span>From ₹ 799</span> <br> <br>Music On The Go!</p>        
+        </div>
+        <div class="football">
+            <img src="https://rukminim1.flixcart.com/image/150/150/k4k7f680/tablet/u/h/s/iball-it-ksa0012-biznizpro-original-imafnftzrdgwvhfn.jpeg?q=70" alt="Tab">
+            <h4>New iball Tablets</h4>
+            <p><span>From ₹10,990</span> <br> <br>upto 25.65 cm (10.1 inch)</p>        
+        </div>
+        <div class="football">
+            <img src="https://rukminim1.flixcart.com/image/150/150/jd0jtzk0/cases-covers/back-cover/z/b/f/befunky-isimple-matte-finish-flexible-soft-tpu-skin-support-original-imafyfmje9mvkfea.jpeg?q=70" alt="covers">
+            <h4>For Vivo</h4>
+            <p><span>Just ₹159</span> <br> <br> Plain Case Covers</p>        
+        </div>
+    </div>
+</div>
+<footer class="desktop">
+    <div class="mainFooter">
+        <div class="subFooter1">
+            <div class="about">
+                <h4>ABOUT</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Flipkart Stories</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Flipkart Wholesale</a></li>
+                    
+                </ul>
+            </div>
+            <div class="help">
+                <H4>HELP</H4>
+                <ul>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation &</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report</a></li>
+                    
+                </ul>
+            </div>
+            <div class="policy">
+                <H4>POLICY</H4>
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">EPR Compliance</a></li>
+                    
+                </ul>
+            </div>
+            <div class="social">
+                <H4>SOCIAL</H4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="subFooter2">
+            <div class="mailUs">
+                <H4>MAIL US:</H4>
+                <P>Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &                  
+                    Clove Embassy Tech Village,                    
+                    Outer Ring Road, Devarabeesanahalli Village,                    
+                    Bengaluru, 560103,                   
+                    Karnataka, India
+                    </P>
+            </div>
+            <div class="registration">
+                <h4>Registered Office Address:
+                </h4>
+                <p>
+                    Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &                  
+                    Clove Embassy Tech Village,                  
+                    Outer Ring Road, Devarabeesanahalli Village,                   
+                    Bengaluru, 560103,                   
+                    Karnataka, India                    
+                    CIN : U51109KA2012PTC066107                   
+                    Telephone: 1800 202 9898
+                    </p>
+            </div>
+        </div> 
+    </div>
+    <div class="copyright">
+       <p><i class="fa fa-copyright" aria-hidden="true"></i>2007-2021 Flipkart.com</p>
+    </div>
+</footer>
+</body>
+</html>
